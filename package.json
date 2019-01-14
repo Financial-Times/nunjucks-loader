@@ -1,0 +1,28 @@
+{
+  "name": "nunjucks-loader",
+  "version": "1.0.0",
+  "description": "A test loader for npm packages outside of nunjucks",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanolee/nunjucks-loader.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "rizza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanolee/nunjucks-loader/issues"
+  },
+  "homepage": "https://github.com/ryanolee/nunjucks-loader#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "my-good-component": "git+ssh://git@github.com/ryanolee/my-good-component.git",
+    "nodemon": "^1.18.9",
+    "nunjucks": "^3.1.7"
+  }
+}
