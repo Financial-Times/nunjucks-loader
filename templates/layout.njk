@@ -7,6 +7,9 @@
     <title>{% block title %} test {% endblock %}</title>
 </head>
 <body>
-    {% include '~my-good-component/main.njk' %}
+    {% set my_value = 'Yeet! :D' %}
+    <h1>{% include '~my-good-component/main.njk' %}</h1>
+    <h1>{% component 'my-good-component' %}</h1>
+    <h1>{% component 'my-good-component' with {'some_value': my_value} %}</h1>
 </body>
 </html>
