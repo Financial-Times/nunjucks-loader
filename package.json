@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ryanolee/nunjucks-loader#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "my-good-component": "git+ssh://git@github.com/ryanolee/my-good-component.git",
     "nodemon": "^1.18.9",
     "nunjucks": "^3.1.7"
